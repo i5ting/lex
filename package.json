@@ -1,0 +1,12 @@
+{
+  "name": "lex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1":"lex  -o 1/lex.yy.c 1/a.lex && cc -o 1/parser 1/lex.yy.c -ll && ./1/parser"
+  },
+  "author": "",
+  "license": "ISC"
+}
