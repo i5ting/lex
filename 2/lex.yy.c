@@ -1,5 +1,6 @@
+#line 2 "2/lex.yy.c"
 
-#line 3 "lex.yy.c"
+#line 4 "2/lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -450,10 +451,10 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "a.lex"
-#line 2 "a.lex"
+#line 1 "2/a.lex"
+#line 2 "2/a.lex"
 #include "stdio.h"
-#line 457 "lex.yy.c"
+#line 458 "2/lex.yy.c"
 
 #define INITIAL 0
 
@@ -635,9 +636,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 4 "a.lex"
+#line 4 "2/a.lex"
 
-#line 641 "lex.yy.c"
+#line 642 "2/lex.yy.c"
 
 	if ( !(yy_init) )
 		{
@@ -723,40 +724,40 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 5 "a.lex"
+#line 5 "2/a.lex"
 ;
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 6 "a.lex"
+#line 6 "2/a.lex"
 printf("Int     : %s\n",yytext);
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 7 "a.lex"
+#line 7 "2/a.lex"
 printf("Float   : %s\n",yytext);
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 8 "a.lex"
+#line 8 "2/a.lex"
 printf("Var     : %s\n",yytext);
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 9 "a.lex"
+#line 9 "2/a.lex"
 printf("Op      : %s\n",yytext);
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 10 "a.lex"
+#line 10 "2/a.lex"
 printf("Unknown : %c\n",yytext[0]);
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 11 "a.lex"
+#line 11 "2/a.lex"
 ECHO;
 	YY_BREAK
-#line 760 "lex.yy.c"
+#line 761 "2/lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1753,6 +1754,6 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 11 "a.lex"
+#line 11 "2/a.lex"
 
 
