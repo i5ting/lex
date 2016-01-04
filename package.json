@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "1":"lex  -o 1/lex.yy.c 1/a.lex && cc -o 1/parser 1/lex.yy.c -ll && ./1/parser",
     "2":"lex  -o 2/lex.yy.c 2/a.lex && cc -o 2/parser 2/lex.yy.c -ll && ./2/parser",
-    "2.1":"lex  -o 2/lex.yy.c 2/a.lex && cc -o 2/parser 2/lex.yy.c -ll && ./2/parser < 2/d.txt"
+    "2.1":"lex  -o 2/lex.yy.c 2/a.lex && cc -o 2/parser 2/lex.yy.c -ll && ./2/parser < 2/d.txt",
+    "3":"lex  -o 3/lex.yy.c 3/a.lex && cc -o 3/parser 3/lex.yy.c -ll && ./3/parser"
   },
   "author": "",
   "license": "ISC"
