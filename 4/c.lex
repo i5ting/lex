@@ -1,10 +1,6 @@
 %{
-/*
- * count the non-comment lines in a file.
- * Author: Gavin Xu
- */
-int ncsl_lines, comment_lines, macro_lines;
-int start=1;
+  int ncsl_lines, comment_lines, macro_lines;
+  int start=1;
 %}
 opencom \/\*
 closcom \*\/
